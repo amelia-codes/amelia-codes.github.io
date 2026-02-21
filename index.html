@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    .typewriter-text {
-    font-family: "Courier New", Courier, monospace;}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title class="text-center text-success">Amelia-Codes</title>
@@ -27,7 +25,7 @@ var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("titlr").innerHTML += txt.charAt(i);
+    document.getElementById("title").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
